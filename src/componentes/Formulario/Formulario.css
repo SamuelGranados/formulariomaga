@@ -1,0 +1,19 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 0px 0px;
+}
+
+.formulario form {
+    max-width: 80%;
+}
+
+.formulario form h2 {
+    color: blue;
+    margin: 0px
+}
+
+.formulario form p {
+    color: #989898;
+    margin-bottom: 40px;
+}
