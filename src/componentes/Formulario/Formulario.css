@@ -9,11 +9,15 @@
 }
 
 .formulario form h2 {
-    color: blue;
+    color: #57AEFF;
     margin: 0px
 }
 
 .formulario form p {
     color: #989898;
     margin-bottom: 40px;
+}
+
+.formulario h2:hover {
+    color: #0587FF;
 }

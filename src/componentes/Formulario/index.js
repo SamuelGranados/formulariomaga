@@ -1,3 +1,4 @@
+import Botao from '../Botao'
 import CampoTexto from '../CampoTexto/CampoTexto'
 import './Formulario.css'
 
@@ -11,6 +12,9 @@ const Formulario = () => {
                 <CampoTexto label="E-mail"/>
                 <CampoTexto label="CPF"/>
                 <CampoTexto label="Telefone"/>
+                <Botao>
+                    Cadastro
+                </Botao>
             </form>
         </section>
     )
