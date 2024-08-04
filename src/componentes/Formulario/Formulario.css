@@ -21,3 +21,10 @@
 .formulario h2:hover {
     color: #0587FF;
 }
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}

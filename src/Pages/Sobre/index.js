@@ -1,5 +1,11 @@
-const Sobre = () => {
-    return <h1>ola mundo </h1>
+import './Sobre.css'
+
+const Sobre = (props) => {
+    return (
+        <section className='componente'>
+            <h3>Usuarios Cadastrados</h3>
+        </section>
+    )
 }
 
 export default Sobre
