@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Botao from '../Botao'
 import CampoTexto from '../CampoTexto/CampoTexto'
-import Login from '../Login'
 import './Formulario.css'
+import Link from '../Link'
 
 
 const Formulario = (props) => {
@@ -53,7 +53,7 @@ const Formulario = (props) => {
                  />
                 <div className='botoes'>
                     <Botao texto="Cadastrar" />
-                    <Login />
+                    <Link />
                 </div>
             </form>
         </section>
