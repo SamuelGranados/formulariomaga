@@ -1,10 +1,11 @@
+import React, { useContext } from 'react';
 import ImgPrincipal from '../../componentes/ImgPrincipal'
 import Formulario from '../../componentes/Formulario'
-import { useState } from 'react'
+import { UsuarioContext } from '../../componentes/UsuariosContext'
 
 const Home = () => {
 
-    const [usuarios, setUsuarios] = useState([])
+    const [usuarios, setUsuarios] = useContext(UsuarioContext);
 
     const aoNovoUsuarioAdicionado = (usuario) => {
         console.log(usuario)

@@ -1,4 +1,3 @@
-import Usuario from '../../componentes/Usuario'
 import './Sobre.css'
 
 const Sobre = (props) => {
@@ -7,8 +6,7 @@ const Sobre = (props) => {
 
     return (
         <section className='componente' style={css}>
-            <h3 style={{ borderColor: props.corSecundaria}}>{props.nome}</h3>
-            <Usuario />
+            <h3 style={{ borderColor: props.corSecundaria}}>Usuarios Cadastrados</h3>
         </section>
     )
 }

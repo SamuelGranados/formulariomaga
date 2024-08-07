@@ -4,7 +4,6 @@ import CampoTexto from '../CampoTexto/CampoTexto'
 import './Formulario.css'
 import Link from '../Link'
 
-
 const Formulario = (props) => {
 
     const [nome, setNome] = useState('')

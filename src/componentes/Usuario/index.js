@@ -9,6 +9,8 @@ const Usuario = (props) => {
             <div className='rodape'>
                 <h4>{props.nome}</h4>
                 <h5>{props.email}</h5>
+                <h5>{props.cpf}</h5>
+                <h5>{props.telefone}</h5>
             </div>
         </div>
     )
