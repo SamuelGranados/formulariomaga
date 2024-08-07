@@ -5,7 +5,7 @@ import { UsuarioContext } from '../../componentes/UsuariosContext'
 
 const Home = () => {
 
-    const [usuarios, setUsuarios] = useContext(UsuarioContext);
+    const {usuarios, setUsuarios} = useContext(UsuarioContext);
 
     const aoNovoUsuarioAdicionado = (usuario) => {
         console.log(usuario)
