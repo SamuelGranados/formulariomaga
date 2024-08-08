@@ -7,8 +7,10 @@ const Sobre = (props) => {
 
     return (
         <section className='componente' style={css}>
-            <h3 style={{ borderColor: props.corSecundaria}}>Usuarios Cadastrados</h3>
-            {props.usuarios.map( usuario => <Usuario nome={usuario.nome} email={usuario.email} cpf={usuario.cpf} telefone={usuario.telefone} />)}
+            <h3 style={{ borderColor: props.corSecundaria }}>Usuarios Cadastrados</h3>
+            <div className='candidatos'>
+             {props.usuarios.map( usuario => <Usuario nome={usuario.nome} email={usuario.email} cpf={usuario.cpf} telefone={usuario.telefone} />)}
+            </div>
         </section>
     )
 }

@@ -19,6 +19,10 @@ const Formulario = (props) => {
             cpf,
             telefone
         })
+        setNome('')
+        setEmail('')
+        setCpf('')
+        setTelefone('')
     }
 
     return (
